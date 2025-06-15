@@ -1,0 +1,271 @@
+/* Responsive Design */
+
+/* Extra Large devices (1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+  
+  .hero-image {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .display-2 {
+    font-size: 3.5rem;
+  }
+}
+
+/* Large devices (992px and up) */
+@media (min-width: 992px) {
+  .hero-content {
+    padding-right: 2rem;
+  }
+  
+  .about-content {
+    padding-right: 2rem;
+  }
+  
+  .contact-info {
+    padding-right: 2rem;
+  }
+}
+
+/* Medium devices (768px and up) */
+@media (min-width: 768px) {
+  .skill-filters {
+    flex-direction: row;
+  }
+  
+  .social-links {
+    justify-content: flex-start;
+  }
+  
+  .stat-card {
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* Small devices (576px and up) */
+@media (min-width: 576px) {
+  .hero-image {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .contact-form-container {
+    padding: 2rem;
+  }
+}
+
+/* Extra small devices (less than 576px) */
+@media (max-width: 575.98px) {
+  .hero-image {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .floating-1,
+  .floating-2 {
+    display: none;
+  }
+  
+  .skill-filters {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skill-filter {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .display-2 {
+    font-size: 2.5rem;
+  }
+  
+  .display-4 {
+    font-size: 2rem;
+  }
+  
+  .stat-card {
+    padding: 1.5rem 1rem;
+  }
+  
+  .contact-form-container {
+    padding: 1.5rem;
+  }
+  
+  .contact-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .about-image-border {
+    display: none;
+  }
+  
+  .project-card {
+    margin-bottom: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  .back-to-top {
+    width: 45px;
+    height: 45px;
+    bottom: 1rem;
+    right: 1rem;
+  }
+  
+  .notification {
+    min-width: 280px;
+    right: 10px;
+    left: 10px;
+  }
+}
+
+/* Landscape orientation on mobile */
+@media (max-width: 767.98px) and (orientation: landscape) {
+  .hero-section {
+    min-height: 100vh;
+  }
+  
+  .hero-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .display-2 {
+    font-size: 2rem;
+  }
+  
+  .fs-2 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Print styles */
+@media print {
+  .navbar,
+  .back-to-top,
+  .scroll-indicator,
+  .floating-element {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .text-white,
+  .text-light,
+  .text-light-emphasis {
+    color: black !important;
+  }
+  
+  .bg-dark,
+  .bg-dark-secondary {
+    background: white !important;
+  }
+  
+  .card,
+  .skill-card,
+  .project-card,
+  .stat-card {
+    border: 1px solid #ccc !important;
+    background: white !important;
+  }
+  
+  a {
+    color: black !important;
+    text-decoration: underline !important;
+  }
+  
+  .gradient-text {
+    color: black !important;
+    -webkit-text-fill-color: black !important;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  :root {
+    --primary-color: #ffff00;
+    --secondary-color: #ff6600;
+    --text-light: #ffffff;
+    --text-muted: #cccccc;
+  }
+  
+  .skill-card,
+  .project-card,
+  .stat-card,
+  .contact-form-container {
+    border: 2px solid var(--primary-color);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .floating-element {
+    animation: none;
+  }
+  
+  .cursor {
+    animation: none;
+  }
+  
+  .scroll-indicator {
+    animation: none;
+  }
+}
+
+/* Dark mode preference */
+@media (prefers-color-scheme: light) {
+  /* Keep dark theme as default for this portfolio */
+}
+
+/* Focus styles for accessibility */
+@media (any-hover: hover) {
+  .btn:hover,
+  .nav-link:hover,
+  .social-link:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Touch device optimizations */
+@media (any-hover: none) {
+  .hover-card:hover {
+    transform: none;
+  }
+  
+  .project-card:hover .project-overlay {
+    opacity: 0;
+  }
+  
+  .social-link:hover {
+    transform: none;
+  }
+}

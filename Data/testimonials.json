@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Nguyễn Văn A",
+    "position": "CEO",
+    "company": "Công ty ABC",
+    "avatar": "assets/images/testimonials/client-1.jpg",
+    "rating": 5,
+    "content": "Diệp Gia Bảo đã phát triển hệ thống ERP cho công ty chúng tôi một cách chuyên nghiệp và hiệu quả. Anh ấy có kiến thức sâu về .NET và luôn đưa ra những giải pháp tối ưu.",
+    "project": "Hệ thống ERP",
+    "date": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "name": "Trần Thị B",
+    "position": "IT Manager",
+    "company": "Công ty XYZ",
+    "avatar": "assets/images/testimonials/client-2.jpg",
+    "rating": 5,
+    "content": "Ứng dụng quản lý kho được phát triển rất tốt, giao diện thân thiện và tính năng đầy đủ. Bảo luôn hỗ trợ nhiệt tình và giải quyết vấn đề nhanh chóng.",
+    "project": "Ứng dụng Quản lý Kho",
+    "date": "2024-02-20"
+  },
+  {
+    "id": 3,
+    "name": "Lê Văn C",
+    "position": "CTO",
+    "company": "Startup DEF",
+    "avatar": "assets/images/testimonials/client-3.jpg",
+    "rating": 4,
+    "content": "Kiến trúc microservices được thiết kế rất tốt, scalable và maintainable. Bảo có tư duy kỹ thuật tốt và luôn cập nhật công nghệ mới.",
+    "project": "Microservices API",
+    "date": "2024-03-10"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "Diệp Gia Bảo - .NET Developer Portfolio",
+  "short_name": "DGB Portfolio",
+  "description": "Portfolio chuyên nghiệp của .NET Developer Diệp Gia Bảo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#facc15",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/images/icons/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/icons/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "developer", "business"],
+  "lang": "vi",
+  "dir": "ltr"
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Hệ thống ERP",
+    "description": "Hệ thống quản lý tài nguyên doanh nghiệp hoàn chỉnh với ASP.NET Core và SQL Server.",
+    "image": "assets/images/projects/project-1.jpg",
+    "github": "https://github.com/yourusername/erp-system",
+    "demo": "https://erp-demo.yourwebsite.com",
+    "status": "completed",
+    "featured": true,
+    "technologies": [
+      { "name": "ASP.NET Core", "color": "primary" },
+      { "name": "SQL Server", "color": "info" },
+      { "name": "Bootstrap", "color": "success" },
+      { "name": "jQuery", "color": "warning" }
+    ],
+    "details": {
+      "duration": "6 tháng",
+      "team_size": 3,
+      "role": "Lead Developer",
+      "client": "Công ty ABC",
+      "features": [
+        "Quản lý nhân sự và lương",
+        "Quản lý tài chính và kế toán",
+        "Quản lý kho và tồn kho",
+        "Báo cáo và thống kê",
+        "Hệ thống phân quyền"
+      ],
+      "challenges": [
+        "Tối ưu hóa hiệu suất với dữ liệu lớn",
+        "Thiết kế kiến trúc scalable",
+        "Tích hợp với hệ thống legacy"
+      ],
+      "gallery": [
+        "assets/images/projects/erp-1.jpg",
+        "assets/images/projects/erp-2.jpg",
+        "assets/images/projects/erp-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Ứng dụng Quản lý Kho",
+    "description": "Ứng dụng desktop WPF để quản lý kho hàng với báo cáo và thống kê chi tiết.",
+    "image": "assets/images/projects/project-2.jpg",
+    "github": "https://github.com/yourusername/inventory-app",
+    "demo": "#",
+    "status": "completed",
+    "featured": true,
+    "technologies": [
+      { "name": "WPF", "color": "info" },
+      { "name": "C#", "color": "primary" },
+      { "name": "MySQL", "color": "warning" },
+      { "name": "Entity Framework", "color": "success" }
+    ],
+    "details": {
+      "duration": "4 tháng",
+      "team_size": 2,
+      "role": "Full Stack Developer",
+      "client": "Công ty XYZ",
+      "features": [
+        "Quản lý sản phẩm và danh mục",
+        "Theo dõi nhập/xuất kho",
+        "Báo cáo tồn kho",
+        "Cảnh báo hết hàng",
+        "In barcode và QR code"
+      ],
+      "challenges": [
+        "Thiết kế UI/UX thân thiện",
+        "Tối ưu hóa hiệu suất truy vấn",
+        "Xử lý đồng bộ dữ liệu"
+      ],
+      "gallery": [
+        "assets/images/projects/inventory-1.jpg",
+        "assets/images/projects/inventory-2.jpg"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "Microservices API",
+    "description": "Kiến trúc microservices với .NET Core, Docker và Supabase cho backend scalable.",
+    "image": "assets/images/projects/project-3.jpg",
+    "github": "https://github.com/yourusername/microservices-api",
+    "demo": "https://api-demo.yourwebsite.com",
+    "status": "in_progress",
+    "featured": true,
+    "technologies": [
+      { "name": ".NET Core", "color": "success" },
+      { "name": "Docker", "color": "primary" },
+      { "name": "Supabase", "color": "info" },
+      { "name": "Redis", "color": "danger" }
+    ],
+    "details": {
+      "duration": "8 tháng",
+      "team_size": 4,
+      "role": "Backend Architect",
+      "client": "Startup DEF",
+      "features": [
+        "API Gateway với Ocelot",
+        "Service Discovery",
+        "Distributed Caching",
+        "Event-driven Architecture",
+        "Monitoring và Logging"
+      ],
+      "challenges": [
+        "Thiết kế kiến trúc microservices",
+        "Quản lý distributed transactions",
+        "Monitoring và debugging"
+      ],
+      "gallery": [
+        "assets/images/projects/microservices-1.jpg",
+        "assets/images/projects/microservices-2.jpg",
+        "assets/images/projects/microservices-3.jpg"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "E-commerce Platform",
+    "description": "Nền tảng thương mại điện tử với ASP.NET Core và React.",
+    "image": "assets/images/projects/project-4.jpg",
+    "github": "https://github.com/yourusername/ecommerce-platform",
+    "demo": "https://shop-demo.yourwebsite.com",
+    "status": "completed",
+    "featured": false,
+    "technologies": [
+      { "name": "ASP.NET Core", "color": "primary" },
+      { "name": "React", "color": "info" },
+      { "name": "SQL Server", "color": "warning" },
+      { "name": "Stripe", "color": "success" }
+    ],
+    "details": {
+      "duration": "5 tháng",
+      "team_size": 3,
+      "role": "Full Stack Developer",
+      "client": "Cửa hàng GHI",
+      "features": [
+        "Catalog sản phẩm",
+        "Giỏ hàng và thanh toán",
+        "Quản lý đơn hàng",
+        "Hệ thống đánh giá",
+        "Admin dashboard"
+      ],
+      "challenges": [
+        "Tích hợp payment gateway",
+        "Tối ưu hóa SEO",
+        "Xử lý concurrent orders"
+      ],
+      "gallery": [
+        "assets/images/projects/ecommerce-1.jpg",
+        "assets/images/projects/ecommerce-2.jpg"
+      ]
+    }
+  }
+]

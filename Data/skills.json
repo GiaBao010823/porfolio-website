@@ -1,0 +1,162 @@
+[
+  {
+    "name": "C# & .NET",
+    "icon": "fab fa-microsoft text-primary",
+    "level": 95,
+    "category": "backend",
+    "description": "Object-oriented programming, LINQ, Entity Framework, và .NET ecosystem.",
+    "details": {
+      "experience": "3+ năm",
+      "projects": 15,
+      "certifications": ["Microsoft Certified: Azure Developer Associate"],
+      "features": [
+        "Object-Oriented Programming",
+        "LINQ và Entity Framework",
+        "Async/Await Programming",
+        "Dependency Injection",
+        "Unit Testing với xUnit"
+      ]
+    }
+  },
+  {
+    "name": "ASP.NET Core",
+    "icon": "fas fa-globe text-success",
+    "level": 90,
+    "category": "backend",
+    "description": "Web API, MVC, Razor Pages, middleware, và dependency injection.",
+    "details": {
+      "experience": "3+ năm",
+      "projects": 12,
+      "certifications": [],
+      "features": [
+        "RESTful Web API",
+        "MVC Architecture",
+        "Razor Pages",
+        "Middleware Pipeline",
+        "Authentication & Authorization"
+      ]
+    }
+  },
+  {
+    "name": "WPF",
+    "icon": "fas fa-desktop text-info",
+    "level": 85,
+    "category": "frontend",
+    "description": "XAML, MVVM pattern, data binding, và custom controls.",
+    "details": {
+      "experience": "2+ năm",
+      "projects": 8,
+      "certifications": [],
+      "features": ["XAML Design", "MVVM Pattern", "Data Binding", "Custom Controls", "Prism Framework"]
+    }
+  },
+  {
+    "name": "SQL Server",
+    "icon": "fas fa-database text-primary",
+    "level": 88,
+    "category": "database",
+    "description": "T-SQL, stored procedures, indexing, và database optimization.",
+    "details": {
+      "experience": "3+ năm",
+      "projects": 20,
+      "certifications": [],
+      "features": [
+        "T-SQL Programming",
+        "Stored Procedures",
+        "Database Design",
+        "Performance Tuning",
+        "Backup & Recovery"
+      ]
+    }
+  },
+  {
+    "name": "MySQL",
+    "icon": "fas fa-database text-warning",
+    "level": 80,
+    "category": "database",
+    "description": "Database design, queries optimization, và performance tuning.",
+    "details": {
+      "experience": "2+ năm",
+      "projects": 10,
+      "certifications": [],
+      "features": [
+        "Database Design",
+        "Query Optimization",
+        "Indexing Strategies",
+        "Replication",
+        "Performance Monitoring"
+      ]
+    }
+  },
+  {
+    "name": "Supabase",
+    "icon": "fas fa-cloud text-success",
+    "level": 75,
+    "category": "database",
+    "description": "PostgreSQL, real-time subscriptions, authentication, và storage.",
+    "details": {
+      "experience": "1+ năm",
+      "projects": 5,
+      "certifications": [],
+      "features": ["PostgreSQL Database", "Real-time Subscriptions", "Authentication", "File Storage", "Edge Functions"]
+    }
+  },
+  {
+    "name": "HTML & CSS",
+    "icon": "fab fa-html5 text-danger",
+    "level": 85,
+    "category": "frontend",
+    "description": "Semantic HTML, responsive design, CSS Grid, và Flexbox.",
+    "details": {
+      "experience": "3+ năm",
+      "projects": 25,
+      "certifications": [],
+      "features": ["Semantic HTML5", "Responsive Design", "CSS Grid & Flexbox", "CSS Animations", "SASS/SCSS"]
+    }
+  },
+  {
+    "name": "JavaScript",
+    "icon": "fab fa-js text-warning",
+    "level": 78,
+    "category": "frontend",
+    "description": "ES6+, DOM manipulation, async programming, và API integration.",
+    "details": {
+      "experience": "2+ năm",
+      "projects": 15,
+      "certifications": [],
+      "features": ["ES6+ Features", "DOM Manipulation", "Async/Await", "Fetch API", "Event Handling"]
+    }
+  },
+  {
+    "name": "Git & GitHub",
+    "icon": "fab fa-git-alt text-danger",
+    "level": 85,
+    "category": "tools",
+    "description": "Version control, branching strategies, và collaborative development.",
+    "details": {
+      "experience": "3+ năm",
+      "projects": 30,
+      "certifications": [],
+      "features": ["Version Control", "Branching Strategies", "Pull Requests", "Code Reviews", "CI/CD Integration"]
+    }
+  },
+  {
+    "name": "Docker",
+    "icon": "fab fa-docker text-primary",
+    "level": 70,
+    "category": "tools",
+    "description": "Containerization, Docker Compose, và deployment strategies.",
+    "details": {
+      "experience": "1+ năm",
+      "projects": 6,
+      "certifications": [],
+      "features": [
+        "Container Creation",
+        "Docker Compose",
+        "Multi-stage Builds",
+        "Volume Management",
+        "Network Configuration"
+      ]
+    }
+  }
+]
