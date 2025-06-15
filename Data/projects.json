@@ -1,81 +1,86 @@
 [
   {
-    "id": 1,
-    "title": "Hệ thống ERP",
-    "description": "Hệ thống quản lý tài nguyên doanh nghiệp hoàn chỉnh với ASP.NET Core và SQL Server.",
-    "image": "assets/images/projects/project-1.jpg",
-    "github": "https://github.com/yourusername/erp-system",
-    "demo": "https://erp-demo.yourwebsite.com",
-    "status": "completed",
-    "featured": true,
-    "technologies": [
-      { "name": "ASP.NET Core", "color": "primary" },
-      { "name": "SQL Server", "color": "info" },
-      { "name": "Bootstrap", "color": "success" },
-      { "name": "jQuery", "color": "warning" }
+  "id": 1,
+  "title": "Đồ án 2 - Phần mềm Quản lý Tiệm Giặt Sấy",
+  "description": "Ứng dụng quản lý toàn diện tiệm giặt ủi, phát triển bằng C# WinForms và SQL Server.",
+  "image": "assets/images/projects/laundry-pos-1.jpg",
+  "github": "https://github.com/yourusername/laundry-manager",
+  "demo": "",
+  "status": "completed",
+  "featured": true,
+  "technologies": [
+    { "name": "C# WinForms", "color": "primary" },
+    { "name": "SQL Server", "color": "info" },
+    { "name": "Crystal Reports", "color": "success" },
+    { "name": "DevExpress", "color": "warning" }
+  ],
+  "details": {
+    "duration": "4 tháng",
+    "team_size": 2,
+    "role": "Fullstack Developer",
+    "client": "Tiệm giặt ủi Gia Bảo",
+    "features": [
+      "Quản lý đơn hàng giặt và sấy",
+      "Theo dõi khách hàng và lịch sử giao dịch",
+      "Tạo hóa đơn và in biên nhận",
+      "Quản lý nhân viên và phân quyền",
+      "Thống kê doanh thu theo ngày/tháng"
     ],
-    "details": {
-      "duration": "6 tháng",
-      "team_size": 3,
-      "role": "Lead Developer",
-      "client": "Công ty ABC",
-      "features": [
-        "Quản lý nhân sự và lương",
-        "Quản lý tài chính và kế toán",
-        "Quản lý kho và tồn kho",
-        "Báo cáo và thống kê",
-        "Hệ thống phân quyền"
-      ],
-      "challenges": [
-        "Tối ưu hóa hiệu suất với dữ liệu lớn",
-        "Thiết kế kiến trúc scalable",
-        "Tích hợp với hệ thống legacy"
-      ],
-      "gallery": [
-        "assets/images/projects/erp-1.jpg",
-        "assets/images/projects/erp-2.jpg",
-        "assets/images/projects/erp-3.jpg"
-      ]
-    }
-  },
+    "challenges": [
+      "Thiết kế giao diện thân thiện người dùng không rành công nghệ",
+      "Đảm bảo dữ liệu không bị trùng khi thao tác đồng thời",
+      "Tối ưu trải nghiệm trên máy cấu hình thấp"
+    ],
+    "gallery": [
+      "assets/images/projects/laundry-1.jpg",
+      "assets/images/projects/laundry-2.jpg",
+      "assets/images/projects/laundry-3.jpg"
+    ]
+  }
+},
+
   {
-    "id": 2,
-    "title": "Ứng dụng Quản lý Kho",
-    "description": "Ứng dụng desktop WPF để quản lý kho hàng với báo cáo và thống kê chi tiết.",
-    "image": "assets/images/projects/project-2.jpg",
-    "github": "https://github.com/yourusername/inventory-app",
-    "demo": "#",
-    "status": "completed",
-    "featured": true,
-    "technologies": [
-      { "name": "WPF", "color": "info" },
-      { "name": "C#", "color": "primary" },
-      { "name": "MySQL", "color": "warning" },
-      { "name": "Entity Framework", "color": "success" }
+  "id": 2,
+  "title": "Đồ án Thực tập – Phần mềm Quản lý Tài sản",
+  "description": "Ứng dụng WPF sử dụng Material Design để quản lý tài sản và kho hàng, tích hợp với Supabase và báo cáo chi tiết.",
+  "image": "assets/images/projects/project-2.jpg",
+  "github": "https://github.com/yourusername/inventory-app",
+  "demo": "#",
+  "status": "completed",
+  "featured": true,
+  "technologies": [
+    { "name": "WPF", "color": "info" },
+    { "name": "Material Design XAML", "color": "secondary" },
+    { "name": "C#", "color": "primary" },
+    { "name": "Supabase", "color": "warning" },
+    { "name": "Entity Framework", "color": "success" }
+  ],
+  "details": {
+    "duration": "4 tháng",
+    "team_size": 7,
+    "role": "Thiết kế cơ sở dữ liệu, giao diện Material UI, xử lý đăng nhập, phân quyền người dùng và chức năng đổi mật khẩu",
+    "client": "Trường Đại học Nam Cần Thơ",
+    "features": [
+      "Giao diện hiện đại với Material Design",
+      "Quản lý tài sản, danh mục và định mức",
+      "Theo dõi nhập xuất và tồn kho",
+      "Tạo báo cáo, biểu đồ và in ấn QR/Barcode",
+      "Hệ thống phân quyền cho admin và nhân viên"
     ],
-    "details": {
-      "duration": "4 tháng",
-      "team_size": 2,
-      "role": "Full Stack Developer",
-      "client": "Công ty XYZ",
-      "features": [
-        "Quản lý sản phẩm và danh mục",
-        "Theo dõi nhập/xuất kho",
-        "Báo cáo tồn kho",
-        "Cảnh báo hết hàng",
-        "In barcode và QR code"
-      ],
-      "challenges": [
-        "Thiết kế UI/UX thân thiện",
-        "Tối ưu hóa hiệu suất truy vấn",
-        "Xử lý đồng bộ dữ liệu"
-      ],
-      "gallery": [
-        "assets/images/projects/inventory-1.jpg",
-        "assets/images/projects/inventory-2.jpg"
-      ]
-    }
-  },
+    "challenges": [
+      "Phân chia module và phối hợp nhóm hiệu quả",
+      "Tùy biến giao diện Material Design theo màu thương hiệu",
+      "Kết nối real-time với Supabase bằng REST API",
+      "Xử lý bất đồng bộ trong cập nhật dữ liệu kho"
+    ],
+    "gallery": [
+      "assets/images/projects/inventory-ui-1.jpg",
+      "assets/images/projects/inventory-ui-2.jpg",
+      "assets/images/projects/inventory-ui-3.jpg"
+    ]
+  }
+},
+
   {
     "id": 3,
     "title": "Microservices API",
