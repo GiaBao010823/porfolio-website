@@ -269,3 +269,10 @@
     transform: none;
   }
 }
+
+/* Chừa khoảng trống cho header cố định trên mobile */
+@media (max-width: 575.98px) {
+  body {
+    padding-top: 56px; /* hoặc đúng chiều cao thực tế của .custom-navbar */
+  }
+}
